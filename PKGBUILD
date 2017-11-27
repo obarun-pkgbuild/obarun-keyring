@@ -1,10 +1,10 @@
 # Maintainer: Eric Vidal <eric@obarun.org>
 
 pkgname=obarun-keyring
-pkgver=20161209
-pkgrel=2
+pkgver=20171127
+pkgrel=1
 pkgdesc='Obarun PGP keyring'
-arch=('any')
+arch=('x86_64')
 url='https://obarun.org/'
 install="${pkgname}.install"
 source=('Makefile'
@@ -12,9 +12,9 @@ source=('Makefile'
 		'obarun-revoked'
 		'obarun-trusted')
 md5sums=('110e310b896c8ee085b71e71bfc853f8'
-         '09a4e55c1b7b646751d058520e1ac8e4'
+         '6ff4a7bb1ff9acdccf4515337cbc0df6'
          'd41d8cd98f00b204e9800998ecf8427e'
-         'baff696de97dd15b2cb1eb67be9914a0')
+         'e30c98e1fbdb267bd2b23318956dbb18')
 validpgpkeys=('6DD4217456569BA711566AC7F06E8FDE7B45DAAC' # Eric Vidal
 			'EE62628C5670B472C1529563D4CA511F0375F9B2') # Danial Spruce
 
